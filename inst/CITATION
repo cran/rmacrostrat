@@ -1,0 +1,18 @@
+citHeader("To cite rmacrostrat in publications, use the following citation:")
+
+bibentry(bibtype = "Article",
+         title = "rmacrostrat: An R Package for fetching geologic data from the Macrostrat database.",
+         author = c(as.person("Lewis A. Jones"),
+                    as.person("Christopher D. Dean"),
+                    as.person("William Gearty"),
+                    as.person("Bethany J. Allen")),
+         year = "2024",
+         journal = "EarthArXiv",
+         pages = "1–29",
+         doi = "10.31223/X5XX37",
+         textVersion = paste("Jones, L.A., Dean, C.D., Gearty, W., and Allen, B.J. 2024.",
+         "rmacrostrat: An R package for accessing and retrieving data from the Macrostrat geological database.",
+         "EarthArXiv,",
+         "1–29,",
+         "doi: 10.31223/X5XX37")
+)
