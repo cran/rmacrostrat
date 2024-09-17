@@ -1,10 +1,10 @@
 Package: rmacrostrat
 Title: Fetch Geologic Data from the 'Macrostrat' Platform
-Description: Work with the 'Macrostrat' Web Service (<https://macrostrat.org/>)
-    to fetch geological data relevant to the spatial and temporal distribution
-    of sedimentary, igneous, and metamorphic rocks as well as data extracted 
-    from them. 
-Version: 0.0.1
+Description: Work with the 'Macrostrat' (<https://macrostrat.org/>) Web Service 
+    (v.2, <https://macrostrat.org/api/v2>) to fetch geological data relevant to
+    the spatial and temporal distribution of sedimentary, igneous, and
+    metamorphic rocks as well as data extracted from them. 
+Version: 0.0.2
 Authors@R: c(
     person(given = "Lewis A.", family = "Jones", email = "LewisA.Jones@outlook.com",
       role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0003-3902-8986")),
@@ -31,7 +31,7 @@ URL: https://rmacrostrat.palaeoverse.org, https://palaeoverse.org,
         https://github.com/UW-Macrostrat/macrostrat/issues
 BugReports: https://github.com/palaeoverse/rmacrostrat/issues
 NeedsCompilation: no
-Packaged: 2024-07-29 17:34:10 UTC; lewis
+Packaged: 2024-09-17 08:23:39 UTC; lewis
 Author: Lewis A. Jones [aut, cre, cph]
     (<https://orcid.org/0000-0003-3902-8986>),
   William Gearty [aut] (<https://orcid.org/0000-0003-0076-3262>),
@@ -39,4 +39,4 @@ Author: Lewis A. Jones [aut, cre, cph]
   Bethany Allen [aut] (<https://orcid.org/0000-0003-0282-6407>)
 Maintainer: Lewis A. Jones <LewisA.Jones@outlook.com>
 Repository: CRAN
-Date/Publication: 2024-07-31 10:30:05 UTC
+Date/Publication: 2024-09-17 09:30:02 UTC
